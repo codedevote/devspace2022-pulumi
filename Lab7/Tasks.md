@@ -6,7 +6,7 @@ In dieser Übung werden wir einen Managed Kubernetes Cluster (AKS) in Azure depl
 
 ### Neues Projekt erstellen
 
-1. Ein neues Pulumi Azure-Native Typescript Projektmit Namen `lab7` erstellen. Bei Auswahl der Azure-Region `WestEurope` verwenden.
+1. Ein neues Pulumi Azure-Native Typescript Projekt mit Namen `lab7` erstellen. Bei Auswahl der Azure-Region `WestEurope` verwenden.
 2. Einen neuen Stack `dev` hinzufügen.
 
 ### Azure Resourcen
