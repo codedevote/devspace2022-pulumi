@@ -15,9 +15,9 @@ Da wir unseren Cluster mit einem anderen Pulumi Programm (Lab7) deployed haben, 
 
 ```ts
 var stackName = pulumi.getStack();
-
+var pulumiSignInName = "codedevote";    // hier Euren sign-in name für pulumi setzen
 var lab7Ref = new pulumi.StackReference("lab7reference", {
-    name: `codedevote/Lab7/${stackName}`
+    name: `${pulumiSignInName}/lab7/${stackName}`
 });
 
 var kubeConfig = lab7Ref.requireOutput("kubeConfig");
