@@ -61,7 +61,7 @@ Wir fügen dem Container ein Port-Mapping hinzu, Host-Port 8080 auf Container-Po
 
 ```ts
 const container = new docker.Container("nginx", {
-   image: image.imageId,
+   image: image.repoDigest,
    ports: [{
       internal: 80,
       external: 8080
