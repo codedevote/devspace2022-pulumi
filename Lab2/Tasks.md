@@ -10,7 +10,7 @@ In der zweiten Übung werden wir einen Docker Container in unserer lokalen Entwi
 
 1. Ein neues Pulumi Typescript Projekt mit Namen `lab2` erstellen
 2. Einen neuen Stack `dev` hinzufügen.
-3. Das Paket `@pulumi/docker` hinzufügen
+3. Das Paket `@pulumi/docker` hinzufügen, `npm install` aufrufen
 4. Im Terminal überprüfen, dass docker verfügbar ist
 
 ### Nginx Container deployen
